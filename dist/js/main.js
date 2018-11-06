@@ -16,7 +16,6 @@ function toggleMenu() {
     menu.classList.add("show");
     menuNav.classList.add("show");
     menuBranding.classList.add("show");
-    //navItems.forEach(item => item.classList.add("show")); //for each nav item we want to add the "show" class
     navItems.forEach(function(item) {
       return item.classList.add("show");
     });
@@ -27,7 +26,6 @@ function toggleMenu() {
     menu.classList.remove("show");
     menuNav.classList.remove("show");
     menuBranding.classList.remove("show");
-    //navItems.forEach(item => item.classList.remove("show")); //for each nav item we want to add the "show" class
     navItems.forEach(function(item) {
       return item.classList.remove("show");
     });
